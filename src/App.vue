@@ -1,21 +1,3 @@
-<!-- <template>
-  <div>
-    <table>
-      <thead>
-        <tr>
-          <th v-for="header in headers" :key="header">{{ header }}</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="(row, index) in tableData" :key="index">
-          <td v-for="header in headers" :key="header">{{ row[header] }}</td>
-        </tr>
-      </tbody>
-    </table>
-    <button @click="exportToCSV">Export to CSV</button>
-  </div>
-</template> -->
-
 <template>
   <div class="flex justify-center items-center min-h-screen bg-gray-100">
     <div class="overflow-auto">
